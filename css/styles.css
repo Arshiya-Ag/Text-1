@@ -1,0 +1,346 @@
+body {
+    background-color: #E4DCCF;
+    margin: 0;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    border-radius: 10%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+h2 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 5rem;
+    color: #002B5B;
+    padding: 50px 0 0 50px;
+}
+
+h3 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #EA5455;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.container-flex p {
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 1.5rem;
+    color: #EA5455 !important;
+    margin: 15px 0px 0px 0px;
+    padding: 5px;
+}
+
+.container-flex p:hover {
+    border-bottom: solid #EA5455 3px;
+    transform: scale(1.02);
+}
+
+.container-flex div {
+    height: 55px;
+}
+
+.Prog {
+    height: 75px;
+    display: flex;
+    position: absolute;
+    padding: 5px;
+}
+
+.space {
+    flex-grow: 10;
+}
+
+.child-flex {
+    display: flex;
+    gap: 30px;
+    margin: auto;
+}
+
+.title {
+    text-align: left;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 8vw;
+    color: #002B5B;
+    margin-top: 75px;
+}
+
+.rule {
+    border-style: dotted none none none;
+    border-width: 15px;
+    border-color: #EA5455;
+    width: 10%;
+    margin-top: 45px;
+    margin-bottom: 100px;
+}
+.rule2 {
+    border-style: dotted none none none;
+    border-width: 15px;
+    border-color: #EA5455;
+    width: 10%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.tot {
+    color: #EA5455;
+}
+.prarag {
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Signika Negative', sans-serif;
+    width: 50%;
+    margin: auto;
+    color: #002B5B;
+}
+.About-me {
+    width: 100%;
+    background-color: #f9f5eb4a;
+}
+.anchor {
+    text-decoration: none;
+    color: #EA5455;
+}
+.prof-img {
+    border-radius: 50%;
+    width: 35%;
+    display: block;
+}
+
+.flex-cont {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.student {
+    width: 250px;
+}
+.sub-title {
+    padding: 0;
+    text-align: center;
+}
+
+.student-div {
+    display: inline-block;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 50px;
+}
+.flex-lil {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.past-div {
+    grid-column: span 3;
+    margin-left: 50px;
+}
+.grid-container img {
+    width: 200px;
+}
+.past-title {
+    text-align: left;
+    margin: 10px 0px;
+    color: #EA5455;
+    font-size: 3.5rem;
+}
+.pragraph {
+    font-size: 2rem;
+    font-family: 'Signika Negative', sans-serif;
+    color: #002B5B;
+}
+.now-div {
+    grid-area: 2 / 2 / 3 / 5;
+}
+.future-div {
+    grid-area: 3 / 1 / 4 / 4;
+    margin-left: 50px;
+}
+.aboutme-title {
+    text-align: center;
+    padding: 0;
+}
+#about-me {
+    margin-bottom: 100px;
+}
+#My-Resume {
+    width: 100%;
+    background-color: #f9f5eb4a;
+}
+.project-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 50px;
+    margin-top: 100px;
+}
+.project-album {
+    width: 100%;
+    border-radius: 10%;
+}
+.project-album:hover {
+    transform: scale(1.03);
+}
+.project-item1 {
+    grid-column: span 2;
+}
+.project-item2 {
+    grid-column: span 2;
+}
+.project-item3 {
+    grid-column-start:2 ;
+    grid-column-end: 4;
+}
+.contract-div {
+    background-color: #EA5455;
+}
+.contract-flex {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.contract-div p {
+    font-size: 2rem;
+    font-family: 'Signika Negative', sans-serif;
+    color: #E4DCCF;
+}
+.link-contract:hover {
+    transform: scale(1.03);
+}
+.contract-title {
+    color: #E4DCCF;
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+.copyright-text {
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+.Resume-div {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    gap: 30px;
+    margin: auto auto 100px auto;
+}
+.Resume-div p {
+    font-size: 2rem;
+    font-family: 'Signika Negative', sans-serif;
+    color: #002B5B;
+}
+.Education-title {
+    padding: 0;
+    font-size: 3.5rem;
+    color: #EA5455;
+    text-align: left;
+}
+.Resume-title {
+    padding-top: 50px;
+    margin-bottom: 100px;
+}
+.skills-title {
+    padding: 0;
+    font-size: 3.5rem;
+    color: #EA5455;
+}
+.skill-item-div {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.skill-item-div p {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Signika Negative', sans-serif;
+    color: #002B5B;
+}
+.Resume-div img {
+    width: 40%;
+}
+.imgs2 img {
+} 
+@media (max-width: 1040px) {
+    .title {
+        text-align: center;
+        margin-top: 0;
+    }
+    .prof-img {
+        margin: auto;
+        width: 50%;
+    }
+    .title {
+        font-size: 12vw;
+    }
+    .flex-cont {
+        flex-direction: column;
+    }
+    .prarag {
+        width: 80%;
+    }
+    .Prog-div {
+        display: none;
+    }
+    .flex-cont {
+        gap: 50px;
+    }
+    .flex-lil {
+        flex-direction: column;
+    }
+    .past-div {
+        grid-column: span 4;
+        margin: 0;
+    }
+    .now-div {
+        grid-column: span 4;
+    }
+    .future-div {
+        grid-column: span 4;
+        margin: 0;
+    }
+    .past-title {
+        text-align: center;
+    }
+    .pragraph {
+        text-align: center;
+        width: 70%;
+        margin: auto;
+    }
+    .project-grid {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+    }
+}
+@media (max-width: 1450px) {
+    .Resume-div {
+        flex-wrap: wrap-reverse;
+    }
+    .Education-title {
+        text-align: center;
+    }
+    .Resume-div p {
+        text-align: center;
+    }
+    .Resume-div img {
+        width: 60%;
+    }
+}
